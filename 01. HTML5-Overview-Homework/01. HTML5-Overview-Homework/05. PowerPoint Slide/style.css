@@ -12,7 +12,6 @@ h1 {
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 0;
-
 }
 
 h3 {
@@ -22,7 +21,7 @@ h3 {
     display: inline;
 }
 
-h4 {
+h4, #text-padding {
     color: #FBEEC9;
     font-family: Consolas;
     font-size: 30px;
@@ -30,10 +29,24 @@ h4 {
     margin: 0 0;
 }
 
+img {
+    width: 261px;
+    height: 91px;
+    display: inline-block;
+    position: fixed;
+    padding: 9px 0 0 970px;
+}
+
 span {
     color: #F3CD60;
     font-family: Consolas;
     font-weight: bold;
+}
+
+ul {
+    list-style-type: square;
+    color: #F2B254;   
+    margin-top: 15px;
 }
 
 .block { 
@@ -45,25 +58,7 @@ span {
     margin: 20px 0 20px 30px;
 }
 
-ul {
-    list-style-type: square;
-    color: #F2B254;   
-    margin-top: 15px;
-}
-
-#text-padding {
-    padding-left: 38px;
-}
-
-img {
-    width: 261px;
-    height: 91px;
-    display: inline-block;
-    position: fixed;
-    padding: 9px 0 0 970px;
-}
-
-.body-content {
+#container {
     padding: 5px 0 0 20px;
 }
 
@@ -73,4 +68,8 @@ img {
     color: #FFFFFF;
     position: fixed;
     margin: -27px 0 0 1235px;
+}
+
+#text-padding {
+    padding-left: 38px;
 }
