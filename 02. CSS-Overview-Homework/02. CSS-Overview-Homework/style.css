@@ -1,0 +1,159 @@
+﻿body {
+}
+body {
+    background-color: #00923E;
+    font-family: Tahoma;
+}
+
+table {  
+	border-spacing: 0;
+    text-align: center;
+    line-height: 46px;
+}
+
+.results>td {
+    border: 2px solid black;
+    border-bottom: none;  
+    border-right: none;  
+}
+
+.results td:last-child {
+    border-right: 2px solid black;
+}
+
+#first-row { 
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#first-row>td {
+    background-color: #F8C711;
+    padding: 0 0 0 0;
+    border: 2px solid black;
+    border-right: none;
+    border-bottom: none;
+}
+
+#first-row td:first-child {
+    border-radius: 12px 0 0 0;
+    border-left: 2px solid black;
+    padding-right: 5px;
+}
+
+#first-row td:last-child {
+    text-align: center;
+    border-radius: 0 12px 0 0;
+    border-right: 2px solid black ;
+}
+
+#first-row td:nth-child(3) {
+    text-align: left;
+    padding-left: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+tr:nth-child(odd) {
+    background-color: #C8C8C8;
+}
+
+td:nth-child(1) {
+    text-align: right;
+}
+
+tr:last-child>td {
+    padding: 0 0 0 0;
+    border: 2px solid black;
+    border-right: none;
+}
+
+tr:last-child td:first-child {
+    border-radius: 0 0 0 12px;
+    border-left: 2px solid black;
+    width: 125px;
+}
+
+tr:last-child td:last-child {
+    text-align: center;
+    border-radius: 0 0 12px 0;
+    border-right: 2px solid black;
+}
+
+.results td:nth-child(1) {
+    padding-right: 5px;
+    text-align: right;
+    width: 150px;
+}
+
+.results td:nth-child(2) {
+    width: 90px;
+}
+
+.results td:nth-child(3) {
+    padding-left: 5px;
+    text-align: left;
+    width: 150px;
+}
+
+.results td:nth-child(4) {
+    width: 90px;
+}
+
+.results td:nth-child(5) {
+    width: 125px;
+    padding-right: 5px;
+    text-align: right;
+}
+
+.results td:nth-child(6) {
+    width: 100px;
+}
+
+.results td:nth-child(7) {
+    width: 125px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.results td:nth-child(8) {
+    width: 46px;
+}
+
+select:disabled {
+    background-color: #DCDCDC;
+    color: #F04B33;
+    height: 34px;
+    width: 38px;
+    vertical-align: top;
+    margin-top: 6px;
+}
+
+select {
+    color: #1CAE59;
+    height: 34px;
+    width: 38px;
+    vertical-align: top;
+    margin-top: 6px;
+    font-weight: bold;
+}
+
+input[type=button] {
+    color:white;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    font-weight:bolder;
+    font-size: 9px;
+    vertical-align: top;
+    margin-top: 6px;
+}
+
+.red{
+    background:red;
+}
+
+.green{
+    background:green;
+}
