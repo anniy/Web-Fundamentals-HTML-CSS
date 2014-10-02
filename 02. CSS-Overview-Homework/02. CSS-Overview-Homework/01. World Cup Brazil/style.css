@@ -4,7 +4,7 @@
 
 #container {
     height: 389px;
-    width: 1116px;
+    width: 1126px;
     background-color: #00923E;
     font-family: Tahoma;
     margin-top: 0;
@@ -16,13 +16,13 @@ table {
     line-height: 56px;
     padding-left: 15px;
     padding-top: 15px;
+    font-size: 20px;
 }
 
 .results>td {
     border: 2px solid black;
     border-bottom: none;  
-    border-right: none; 
-    font-size: 20px; 
+    border-right: none;  
 }
 
 .results td:last-child {
@@ -126,7 +126,7 @@ tr:last-child td:last-child {
 }
 
 .results td:nth-child(8) {
-    width: 46px;
+    width: 56px;
 }
 
 select:disabled {
@@ -140,18 +140,19 @@ select {
     width: 38px;
     vertical-align: top;
     margin-top: 11px;
+    font-size: 18px;
     font-weight: bold;
 }
 
 input[type=button] {
     color:white;
-    height: 32px;
-    width: 32px;
-    border-radius: 32px;
+    height: 42px;
+    width: 42px;
+    border-radius: 42px;
     font-weight:bolder;
-    font-size: 9px;
+    font-size: 12px;
     vertical-align: top;
-    margin-top: 6px;
+    margin-top: 7px;
 }
 
 .red{
@@ -164,8 +165,6 @@ input[type=button] {
 
 tr:nth-child(2) td:nth-child(1) .flags {
     content: url(images/brasil.png);
-    width: 24px;
-    height: 16px;
 	float: right;
 	margin-left: 5px;
 	margin-top: 23px;
@@ -173,8 +172,6 @@ tr:nth-child(2) td:nth-child(1) .flags {
 
 tr:nth-child(2) td:nth-child(3) .flags {
     content: url(images/mexico.png);
-    width: 24px;
-    height: 16px;
 	float: left;
 	margin-right: 5px;
 	margin-top: 23px;
@@ -182,8 +179,6 @@ tr:nth-child(2) td:nth-child(3) .flags {
 
 tr:nth-child(3) td:nth-child(1) .flags {
     content: url(images/spain.png);
-    width: 24px;
-    height: 16px;
 	float: right;
 	margin-left: 5px;
 	margin-top: 23px;
@@ -191,8 +186,6 @@ tr:nth-child(3) td:nth-child(1) .flags {
 
 tr:nth-child(3) td:nth-child(3) .flags {
     content: url(images/netherlands.png);
-    width: 24px;
-    height: 16px;
 	float: left;
 	margin-right: 5px;
 	margin-top: 23px;
@@ -200,8 +193,6 @@ tr:nth-child(3) td:nth-child(3) .flags {
 
 tr:nth-child(4) td:nth-child(1) .flags {
     content: url(images/italy.png);
-    width: 24px;
-    height: 16px;
 	float: right;
 	margin-left: 5px;
 	margin-top: 23px;
@@ -209,8 +200,6 @@ tr:nth-child(4) td:nth-child(1) .flags {
 
 tr:nth-child(4) td:nth-child(3) .flags {
     content: url(images/england.png);
-    width: 24px;
-    height: 16px;
 	float: left;
 	margin-right: 5px;
 	margin-top: 23px;
@@ -218,8 +207,6 @@ tr:nth-child(4) td:nth-child(3) .flags {
 
 tr:nth-child(5) td:nth-child(1) .flags {
     content: url(images/argentina.png);
-    width: 24px;
-    height: 16px;
 	float: right;
 	margin-left: 5px;
 	margin-top: 23px;
@@ -227,8 +214,6 @@ tr:nth-child(5) td:nth-child(1) .flags {
 
 tr:nth-child(5) td:nth-child(3) .flags {
     content: url(images/bosnia-herz.png);
-    width: 24px;
-    height: 16px;
 	float: left;
 	margin-right: 5px;
 	margin-top: 23px;
@@ -236,8 +221,6 @@ tr:nth-child(5) td:nth-child(3) .flags {
 
 tr:nth-child(6) td:nth-child(1) .flags {
     content: url(images/germany.png);
-    width: 24px;
-    height: 16px;
 	float: right;
 	margin-left: 5px;
 	margin-top: 23px;
@@ -245,8 +228,6 @@ tr:nth-child(6) td:nth-child(1) .flags {
 
 tr:nth-child(6) td:nth-child(3) .flags {
     content: url(images/portugal.png);
-    width: 24px;
-    height: 16px;
 	float: left;
 	margin-right: 5px;
 	margin-top: 23px;
