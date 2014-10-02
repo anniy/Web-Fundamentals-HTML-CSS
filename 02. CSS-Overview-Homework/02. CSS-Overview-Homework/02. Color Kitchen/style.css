@@ -119,7 +119,6 @@ section article div::first-letter {
 
 section div {
     margin-top: 0;
-    margin-bottom: 10px;
 }
 
 section header {
@@ -133,6 +132,7 @@ section header {
 
 footer {
     font-style: italic;
+    margin-top: 10px;
 }
 
 span:lang(la) {
