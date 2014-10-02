@@ -19,23 +19,10 @@ table {
     font-size: 18px;
 }
 
-.results>td {
-    border: 2px solid black;
-    border-bottom: none;  
-    border-right: none;  
-}
-
-.results td:last-child {
-    border-right: 2px solid black;
-}
-
-#first-row { 
-    font-size: 25px;
-    font-weight: bold;
-}
-
 #first-row>td {
     background-color: #F8C711;
+    font-size: 25px;
+    font-weight: bold;
     padding: 0 0 0 0;
     border: 2px solid black;
     border-right: none;
@@ -44,14 +31,8 @@ table {
 
 #first-row td:first-child {
     border-radius: 15px 0 0 0;
-    border-left: 2px solid black;
+    text-align: right;
     padding-right: 5px;
-}
-
-#first-row td:last-child {
-    text-align: center;
-    border-radius: 0 15px 0 0;
-    border-right: 2px solid black ;
 }
 
 #first-row td:nth-child(3) {
@@ -59,34 +40,15 @@ table {
     padding-left: 5px;
 }
 
-tr:nth-child(even) {
-    background-color: #FFFFFF;
+#first-row td:last-child { 
+    border-radius: 0 15px 0 0;
+    border-right: 2px solid black ;
 }
 
-tr:nth-child(odd) {
-    background-color: #C8C8C8;
-}
-
-td:nth-child(1) {
-    text-align: right;
-}
-
-tr:last-child>td {
-    padding: 0 0 0 0;
+.results>td {
     border: 2px solid black;
-    border-right: none;
-}
-
-tr:last-child td:first-child {
-    border-radius: 0 0 0 15px;
-    border-left: 2px solid black;
-    width: 125px;
-}
-
-tr:last-child td:last-child {
-    text-align: center;
-    border-radius: 0 0 15px 0;
-    border-right: 2px solid black;
+    border-bottom: none;  
+    border-right: none;  
 }
 
 .results td:nth-child(1) {
@@ -126,7 +88,31 @@ tr:last-child td:last-child {
 }
 
 .results td:nth-child(8) {
+    border-right: 2px solid black;
     width: 56px;
+}
+
+tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+tr:nth-child(odd) {
+    background-color: #C8C8C8;
+}
+
+tr:last-child td {
+    padding: 0 0 0 0;
+    border: 2px solid black;
+    border-right: none;
+}
+
+tr:last-child td:first-child {
+    border-radius: 0 0 0 15px;
+}
+
+tr:last-child td:last-child {
+    border-radius: 0 0 15px 0;
+    border: 2px solid black;
 }
 
 select:disabled {
