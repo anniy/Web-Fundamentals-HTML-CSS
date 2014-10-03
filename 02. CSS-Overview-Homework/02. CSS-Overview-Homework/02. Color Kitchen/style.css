@@ -137,6 +137,7 @@ footer {
 
 span:lang(la) {
     color: blue;
+    font-style: italic;
 }
 
 span:lang(la):before,  span:lang(la):after {
@@ -161,10 +162,10 @@ span:lang(la):before,  span:lang(la):after {
     background-color: #008000;
 }
 
-#\#HSLHSV {
+#HSLHSV {
     background-color: #0000FF;
 }
 
-#\#lorem {
+#lorem {
     background-color: #800080;
 }
