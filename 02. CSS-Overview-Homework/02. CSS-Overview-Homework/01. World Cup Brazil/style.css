@@ -1,13 +1,12 @@
 ﻿body {
-    margin: 0 0 0 0;
+    margin: 0 0;
 }
 
 #container {
-    height: 389px;
+    height: 413px;
     width: 1126px;
     background-color: #00923E;
     font-family: Tahoma;
-    margin-top: 0;
 }
 
 table {  
@@ -23,7 +22,7 @@ table {
     background-color: #F8C711;
     font-size: 25px;
     font-weight: bold;
-    padding: 0 0 0 0;
+    padding: 0 0;
     border: 2px solid black;
     border-right: none;
     border-bottom: none;
@@ -44,6 +43,20 @@ table {
     border-radius: 0 15px 0 0;
     border-right: 2px solid black ;
 }
+
+#last-row td{
+    background-color: white;
+}
+
+#last-row td:first-child {
+    border-radius: 0 0 0 15px;
+}
+
+#last-row td:last-child {
+    border-radius: 0 0 15px 0;
+    border: 2px solid black;
+}
+
 
 .results>td {
     border: 2px solid black;
@@ -92,27 +105,22 @@ table {
     width: 56px;
 }
 
-tr:nth-child(even) {
+table .results:nth-child(even) {
     background-color: #FFFFFF;
 }
 
-tr:nth-child(odd) {
+table .results:nth-child(odd) {
     background-color: #C8C8C8;
+}
+
+table .results:last-child {
+    background-color: none;
 }
 
 tr:last-child td {
     padding: 0 0 0 0;
     border: 2px solid black;
     border-right: none;
-}
-
-tr:last-child td:first-child {
-    border-radius: 0 0 0 15px;
-}
-
-tr:last-child td:last-child {
-    border-radius: 0 0 15px 0;
-    border: 2px solid black;
 }
 
 select:disabled {
@@ -148,72 +156,92 @@ input[type=button] {
     background:green;
 }
 
-tr:nth-child(2) td:nth-child(1) .flags {
+#last-row td:nth-child(1) {
+    text-align: right;
+    padding-right: 5px;
+}
+
+#last-row td:nth-child(3) {
+    text-align: left;
+    padding-left: 5px;
+}
+
+#last-row td:nth-child(5) {
+    text-align: right;
+    padding-right: 5px;
+}
+
+#last-row td:nth-child(7) {
+    text-align: left;
+    padding-left: 5px;
+}
+
+tr:nth-child(2) td:nth-child(1) .flags:after {
     content: url(images/brasil.png);
 	float: right;
 	margin-left: 5px;
-	margin-top: 23px;
+	margin-top: 5px;
 }
 
-tr:nth-child(2) td:nth-child(3) .flags {
+tr:nth-child(2) td:nth-child(3) .flags:before {
     content: url(images/mexico.png);
 	float: left;
 	margin-right: 5px;
-	margin-top: 23px;
+	margin-top: 5px;
 }
 
-tr:nth-child(3) td:nth-child(1) .flags {
+tr:nth-child(3) td:nth-child(1) .flags::after {
     content: url(images/spain.png);
 	float: right;
 	margin-left: 5px;
-	margin-top: 23px;
+	margin-top: 5px;
 }
 
-tr:nth-child(3) td:nth-child(3) .flags {
+tr:nth-child(3) td:nth-child(3) .flags:before  {
     content: url(images/netherlands.png);
 	float: left;
 	margin-right: 5px;
-	margin-top: 23px;
+	margin-top: 5px;
 }
 
-tr:nth-child(4) td:nth-child(1) .flags {
+tr:nth-child(4) td:nth-child(1) .flags:after {
     content: url(images/italy.png);
 	float: right;
 	margin-left: 5px;
-	margin-top: 23px;
+	margin-top: 5px;
 }
 
-tr:nth-child(4) td:nth-child(3) .flags {
+tr:nth-child(4) td:nth-child(3) .flags:before  {
     content: url(images/england.png);
 	float: left;
 	margin-right: 5px;
-	margin-top: 23px;
+	margin-top: 5px;
 }
 
-tr:nth-child(5) td:nth-child(1) .flags {
+tr:nth-child(5) td:nth-child(1) .flags:after {
     content: url(images/argentina.png);
 	float: right;
 	margin-left: 5px;
-	margin-top: 23px;
+	margin-top: 5px;
 }
 
-tr:nth-child(5) td:nth-child(3) .flags {
+tr:nth-child(5) td:nth-child(3) .flags:before  {
     content: url(images/bosnia-herz.png);
 	float: left;
 	margin-right: 5px;
-	margin-top: 23px;
+	margin-top: 5px;
 }
 
-tr:nth-child(6) td:nth-child(1) .flags {
+tr:nth-child(6) td:nth-child(1) .flags:after {
     content: url(images/germany.png);
 	float: right;
 	margin-left: 5px;
-	margin-top: 23px;
+	margin-top: 5px;
 }
 
-tr:nth-child(6) td:nth-child(3) .flags {
+tr:nth-child(6) td:nth-child(3) .flags:before  {
     content: url(images/portugal.png);
 	float: left;
 	margin-right: 5px;
-	margin-top: 23px;
+	margin-top: 5px;
 }
