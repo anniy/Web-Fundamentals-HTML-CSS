@@ -1,0 +1,35 @@
+﻿table {
+    border: 1px solid black;
+    width: 415px;
+    border-spacing: 1px;
+    margin: 30px auto;
+}
+
+input:hover {
+    cursor: pointer;
+    outline: none;
+}
+
+th input { 
+    font-size: 44px;
+    text-align: right;
+    height: 100px;
+    width: 395px;   
+    padding: 0 5px;
+    text-wrap: none;
+}
+
+td input {
+    height: 100px;
+    width: 100px;    
+    margin: 0;
+    font-size: 36px;
+}
+
+td input:hover {
+    background: #808080 !important;
+}
+
+td:last-child input {
+    background: #EBD7B7;
+}
