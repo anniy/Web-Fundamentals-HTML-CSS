@@ -1,9 +1,8 @@
 ﻿body {
-    
-    font-family: Tahoma;  
+    font-family: 'PT Sans', Tahoma, sans-serif;
     padding: 0 0;
     margin: 0 0;
-    color: white; 
+    color: #fff; 
     margin-left: 50px;
 }
 
@@ -20,12 +19,8 @@ table {
 }
 
 a {
-    color: white;
     text-decoration: none;
-}
-
-a:visited {
-    
+    color: #fff;
 }
 
 #logo div {
@@ -204,22 +199,20 @@ td:nth-child(2) {
 	}
 
 	#navigation-menu ul li {
-		float: left;
-        
+		float: left;      
 	}
 		#navigation-menu ul li:hover {
 			background: #428BCA;
             outline: none;
 		}
-			nav ul li:hover a {
+			#navigation-menu ul li:hover a {
 				color: #fff;
 			}
 		
 		#navigation-menu ul li a {
 			display: block; 
-            adding: 25px 10px;
-			color: white;
             text-decoration: none;
+            color: #fff;
 		}
 			
 		
@@ -233,7 +226,8 @@ td:nth-child(2) {
         width: 300px;
         text-align: left;
         border: 1px solid rgba(0, 0, 0, 0.15);
-        text-transform: capitalize;
+        text-transform: none;
+        font-weight: 400;
 	}
 
 		#navigation-menu ul ul li {
@@ -247,7 +241,7 @@ td:nth-child(2) {
             }
             
 			#navigation-menu ul ul li a {
-				padding: 0px 10px;
+				padding: 0 10px;
 				color: #fff;
 			}	
 				#navigation-menu ul ul li a:hover {
@@ -341,7 +335,8 @@ td:nth-child(2) {
         text-align: left;
         border: 1px solid rgba(0, 0, 0, 0.15);
         z-index: 1001;
-        text-transform: capitalize;     
+        text-transform: capitalize;    
+        font-weight: 400; 
 	}
 
 		#notification-menu ul ul li {
@@ -360,3 +355,13 @@ td:nth-child(2) {
 				#notification-menu ul ul li a:hover {
 					background: #FF9C00;
 				}
+
+.nav-blue a {
+    font-weight: bold;
+    color: #4ca0db !important;
+}
+
+.nav-blue:hover a {
+    font-weight: bold;
+    color: #fff !important;
+}
