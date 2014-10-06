@@ -24,10 +24,6 @@ a {
     text-decoration: none;
 }
 
-a:visited {
-    
-}
-
 #logo div {
     padding-top: 2px;
     text-align: right;
@@ -218,7 +214,7 @@ td:nth-child(2) {
 		#navigation-menu ul li a {
 			display: block; 
             adding: 25px 10px;
-			color: white;
+			color: #757575; 
             text-decoration: none;
 		}
 			
@@ -233,7 +229,6 @@ td:nth-child(2) {
         width: 300px;
         text-align: left;
         border: 1px solid rgba(0, 0, 0, 0.15);
-        text-transform: capitalize;
 	}
 
 		#navigation-menu ul ul li {
@@ -341,7 +336,6 @@ td:nth-child(2) {
         text-align: left;
         border: 1px solid rgba(0, 0, 0, 0.15);
         z-index: 1001;
-        text-transform: capitalize;     
 	}
 
 		#notification-menu ul ul li {
