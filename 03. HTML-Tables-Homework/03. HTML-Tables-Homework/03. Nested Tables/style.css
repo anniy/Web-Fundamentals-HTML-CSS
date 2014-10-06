@@ -1,0 +1,31 @@
+﻿#main-table {
+    border: 1px solid black;
+    text-align: center;
+}
+
+#main-table td:first-child {   
+    padding: 13px 10px;
+}
+
+#nested-table {
+    border: 1px solid black;
+    margin: 10px 10px;
+    font-family: Tahoma;
+    font-size: 55px;
+}
+
+#nested-table tr:first-child td {
+    text-align: left;
+}
+
+#nested-table td {
+    padding: 0 10px;
+}
+
+#image:before {
+    content: url(softuni.png);
+}
+
+td {
+    border: 1px solid black;
+}

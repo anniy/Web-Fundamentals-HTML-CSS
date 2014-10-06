@@ -1,0 +1,32 @@
+﻿body {
+    font-family: tahoma;  
+    font-size: 16px;
+}
+
+thead tr{
+    height: 60px;
+}
+
+thead th {
+    text-align: left;
+    font-size: 2em;
+    padding: 0;
+    vertical-align: top;
+}
+
+tr td:first-child {
+    width: 175px;
+    text-align: center;
+}
+
+tr td:last-child {
+    width: 210px;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#image:before {
+    content: url(softuni.png);
+}
