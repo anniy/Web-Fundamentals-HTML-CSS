@@ -16,6 +16,7 @@ table {
 
 #logo {
     width: 250px;
+    font-size: 11px;
 }
 
 a {
@@ -24,7 +25,7 @@ a {
 }
 
 #logo div {
-    padding-top: 2px;
+    padding-top: 7px;
     text-align: right;
     height: 60px;
     width: 250px;
@@ -41,9 +42,13 @@ a {
     vertical-align: top;
 }
 
-#notification-icon:before {
-    content: url(notificationsIcon.png);
+#notification-icon {
+    width: 20px;
+    height: 20px;
+    background: url(notificationsIcon.png) no-repeat;
     vertical-align: middle;
+    margin: 0;
+    display: inline-block;
     
 }
 
@@ -76,15 +81,7 @@ a {
 
 td {
     height: 50px;
-}
-
-span {
-    font-size: 11px;
-    
-}
-
-td {
-    //border: 1px solid white;
+     //border: 1px solid white;
 }
 
 form {  
@@ -147,7 +144,7 @@ td:nth-child(3) {
 } 
 
 td:nth-child(2) {
-    width: 540px;
+    width: 535px;
 } 
 
 #navigation {
@@ -263,14 +260,14 @@ td:nth-child(2) {
 	border-top-color: rgba(255,255,255,1);
     widows: 0;
     height: 0;
-    padding-left: 0px;
+    padding-left: 0;
     vertical-align: middle;
     right: 17px;
 	top: 50%;
 	margin-top: 6px;
     margin-left: 2px;  
+    border-radius: 0 !important;
 }
-
 
 #notification-menu {
     display: inline-block;
@@ -291,8 +288,25 @@ td:nth-child(2) {
 	display: none;
 }
 
+#notification-menu>ul>li:first-child {
+    vertical-align: middle;
+    font-weight: bold;
+    margin-right: 6px;
+    font-size: 14px;
+    display: block;
+}
+
+#notification-menu>ul>li:first-child a {
+    color: #FEA71E;
+}
+
+#notification-menu>ul>li:hover {
+    text-decoration: underline;
+    background: none;
+}
+
 	#notification-menu ul li:hover > ul {
-		display: block;
+		display: block;       
 	}
 
 #notification-menu ul {
@@ -307,19 +321,21 @@ td:nth-child(2) {
 	}
 
 	#notification-menu ul li {
-		float: left;       
+		float: left;
+        display: block;       
 	}
 		#notification-menu ul li:hover {
-			background: #428BCA;
             outline: none;
 		}
 			nav ul li:hover a {
 				color: #fff;
 			}
 		
-		#notification-menu ul li a {
-			display: block; padding: 25px 10px;
-			color: #757575; text-decoration: none;
+		#notification-menu ul ul li a {
+			display: block; 
+            padding: 25px 10px;
+			color: #757575; 
+            text-decoration: none;
 		}
 			
 		
