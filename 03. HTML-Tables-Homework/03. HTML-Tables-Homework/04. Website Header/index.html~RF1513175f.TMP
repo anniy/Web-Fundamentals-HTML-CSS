@@ -46,16 +46,16 @@
                 <td id="navigation" colspan="2">
                     <nav id="navigation-menu">
                         <ul>
-                            <li><a href="https://softuni.bg/news" target="_blank">news</a></li>
+                            <li>news</li>
                             <li>about the university<strong class="caret"></strong>
                                 <ul>
-                                    <li><a href="https://softuni.bg/about" target="_blank">about</a></li>
-                                    <li><a href="https://softuni.bg/professions" target="_blank">proffesions</a></li>
-                                    <li><a href="https://softuni.bg/plans" target="_blank">plans</a></li>
-                                    <li><a href="https://softuni.bg/majors" target="_blank">majors</a></li>
-                                    <li><a href="https://softuni.bg/trainers" target="_blank">trainers</a></li>
-                                    <li><a href="https://softuni.bg/news/SGExpressbank-student-loan" target="_blank">funding</a></li>
-                                    <li><a href="https://softuni.bg/apply" target="_blank">apply</a></li>
+                                    <li><a href="https://softuni.bg/about">about</a></li>
+                                    <li><a href="https://softuni.bg/professions">proffesions</a></li>
+                                    <li><a href="https://softuni.bg/plans">plans</a></li>
+                                    <li><a href="https://softuni.bg/majors">majors</a></li>
+                                    <li><a href="https://softuni.bg/trainers">trainers</a></li>
+                                    <li><a href="#">funding</a></li>
+                                    <li><a href="#">apply</a></li>
                                 </ul>
                             </li>
                             <li>training courses<strong class="caret"></strong>
