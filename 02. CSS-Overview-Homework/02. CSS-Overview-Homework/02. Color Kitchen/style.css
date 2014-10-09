@@ -7,8 +7,8 @@
 /*--- 1.Header ---*/
 
 body > header {
-    background: linear-gradient(to right, red 33.3%, green 33.3%, green 66.7%, blue 66.7%);
-    color: yellow;
+    background: linear-gradient(to right, #ff0000 33.3%, #008000 33.3%, #008000 66.7%, #0000ff 66.7%);
+    color: #ffff00;
     width: 100%;
     height: 55px;
     font-size: 35px;
@@ -21,7 +21,7 @@ body > header {
 /*--- 2.Navigation menu ---*/
 
 a:visited {
-    color: gray;
+    color: #808080;
 }
 
 aside {
@@ -41,7 +41,7 @@ aside header {
 }
 
 ul {
-    color: black;
+    color: #000000;
     list-style-type: none;
     margin-top: 4px;
     margin-bottom: 0;
@@ -85,20 +85,25 @@ li:nth-child(6):hover {
 }
 
 li a, li:hover a {
-    color: black;
+    color: #000000;
     cursor: default;
     text-decoration: none;
 }
 
 /*--- 3.Section ---*/
 
-article a {
-    color: gray;
-}
-
 section {
     display: block;  
     margin: 30px 25px 30px 285px;
+}
+
+section header {
+    color: #ffffff;
+    border-radius: 9px 9px;
+    font-size: 30px;
+    height: 50px;    
+    padding-left: 20px;
+    padding-top: 10px;   
 }
 
 article {
@@ -109,7 +114,13 @@ article {
     font-size: 20px;
 }
 
+article a {
+    color: #808080;
+}
 
+div {
+    margin-top: 0;
+}
 
 div::first-letter {
     font-size: 60px;
@@ -119,31 +130,18 @@ div::first-line {
     font-style: italic;
 }
 
-div {
-    margin-top: 0;
-}
-
-section header {
-    color: white;
-    border-radius: 9px 9px;
-    font-size: 30px;
-    height: 50px;    
-    padding-left: 20px;
-    padding-top: 10px;   
-}
-
-footer {
-    font-style: italic;
-    margin-top: 10px;
-}
-
 span:lang(la) {
-    color: blue;
+    color: #0000ff;
     font-style: italic;
 }
 
 span:lang(la):before,  span:lang(la):after {
     content: "\"";
+}
+
+footer {
+    font-style: italic;
+    margin-top: 10px;
 }
 
 #webColors {
@@ -152,12 +150,12 @@ span:lang(la):before,  span:lang(la):after {
 
 #webSafeColors {
     background-color: #FFA500;
-    color: black;
+    color: #000000;
 }
 
 #RGB {
     background-color: #FFFF00;
-    color: black;
+    color: #000000;
 }
 
 #RGBA {
