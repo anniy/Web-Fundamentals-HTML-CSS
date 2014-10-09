@@ -1,7 +1,7 @@
 ﻿body {
     background-image: url(images/background.jpg);
     font-family: Tahoma;
-    margin: 0 0 0 0;
+    margin: 0;
 }
 
 /* header*/
@@ -53,9 +53,11 @@ li {
     background-image: url(images/bullet.png);
     background-repeat: no-repeat;
     background-position: 10px 11px;
-    border-radius: 7px 7px 7px 7px;    
+    border-radius: 7px 7px 7px 7px;  
+    font-size: 18px;  
     line-height: 25px;     
     padding: 6px 0 6px 35px;
+    
 }
 
 li:nth-child(1):hover {
@@ -100,23 +102,23 @@ section {
     margin: 30px 25px 30px 285px;
 }
 
-section article {
+article {
     background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 18px 18px 18px 18px;
+    border-radius: 18px;
     margin-bottom: 20px;   
-    padding: 15px 15px;
+    padding: 15px;
 }
 
-section article div:first-line {
+div:first-line {
     font-style: italic;
     margin-bottom: 100px;
 }
 
-section article div::first-letter {
+div::first-letter {
     font-size: 4em;
 }
 
-section div {
+div {
     margin-top: 0;
 }
 
