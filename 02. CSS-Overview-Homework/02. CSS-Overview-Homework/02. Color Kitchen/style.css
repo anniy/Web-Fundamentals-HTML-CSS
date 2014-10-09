@@ -109,7 +109,7 @@ article {
     padding: 15px;
 }
 
-div:first-line {
+div::first-line {
     font-style: italic;
     margin-bottom: 100px;
 }
