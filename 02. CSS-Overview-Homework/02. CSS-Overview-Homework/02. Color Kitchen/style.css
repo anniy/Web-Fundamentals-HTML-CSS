@@ -123,11 +123,11 @@ div {
 }
 
 div::first-letter {
-    font-size: 60px;
+    font-size: 60px !important;
 }
 
 div::first-line {
-    font-style: italic;
+    font-style: italic !important;
 }
 
 span:lang(la) {
