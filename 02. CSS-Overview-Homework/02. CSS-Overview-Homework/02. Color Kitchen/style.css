@@ -109,13 +109,14 @@ article {
     padding: 15px;
 }
 
-div::first-line {
-    font-style: italic;
-    margin-bottom: 100px;
-}
+
 
 div::first-letter {
-    font-size: 4em;
+    font-size: 60px;
+}
+
+div::first-line {
+    font-style: italic;
 }
 
 div {
