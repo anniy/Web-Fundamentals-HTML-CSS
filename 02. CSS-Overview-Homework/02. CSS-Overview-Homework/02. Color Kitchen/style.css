@@ -120,7 +120,6 @@ article a {
 
 div {
     margin-top: 0;
-    display: inline-block;
 }
 
 div::first-letter {
