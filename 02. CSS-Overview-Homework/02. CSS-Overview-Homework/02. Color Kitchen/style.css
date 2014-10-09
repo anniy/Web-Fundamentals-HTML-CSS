@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-/* header*/
+/*--- 1.Header ---*/
 
 body > header {
     background: linear-gradient(to right, red 33.3%, green 33.3%, green 66.7%, blue 66.7%);
@@ -18,7 +18,7 @@ body > header {
     padding-top: 0;
 }
 
-/* navigation menu */
+/*--- 2.Navigation menu ---*/
 
 a:visited {
     color: gray;
@@ -90,15 +90,14 @@ li a, li:hover a {
     text-decoration: none;
 }
 
-/* section */
+/*--- 3.Section ---*/
 
 article a {
     color: gray;
 }
 
 section {
-    display: block;
-    font-size: 20px;
+    display: block;  
     margin: 30px 25px 30px 285px;
 }
 
@@ -107,6 +106,7 @@ article {
     border-radius: 18px;
     margin-bottom: 20px;   
     padding: 15px;
+    font-size: 20px;
 }
 
 
