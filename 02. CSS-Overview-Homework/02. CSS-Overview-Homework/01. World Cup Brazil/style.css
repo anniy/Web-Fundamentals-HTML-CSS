@@ -1,15 +1,16 @@
 ﻿body {
-    margin: 0 0;
+    margin: 0;
 }
 
 #container {
+    margin: 0 auto;
     height: 415px;
     width: 1126px;
     background-color: #00923E;
     font-family: Tahoma;
 }
 
-table {  
+table {
 	border-spacing: 0;
     text-align: center;
     line-height: 56px;
