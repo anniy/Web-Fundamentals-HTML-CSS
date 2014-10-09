@@ -20,6 +20,10 @@ body > header {
 
 /* navigation menu */
 
+a:visited {
+    color: gray;
+}
+
 aside {
     background-color: rgba(255, 255, 255, 0.9);  
     border-radius: 18px 18px 18px 18px;
@@ -83,11 +87,6 @@ li a, li:hover a {
     cursor: default;
     text-decoration: none;
 }
-
-a:visited {
-    color: gray;
-}
-
 
 /* section */
 

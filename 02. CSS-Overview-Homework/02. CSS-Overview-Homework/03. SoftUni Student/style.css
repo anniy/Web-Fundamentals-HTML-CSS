@@ -1,21 +1,27 @@
 ﻿body {
-    margin: 30px 30px;
+    margin: 30px 0;
 }
 
-div {
-    border: 3px solid black;
+#container {
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+}
+
+#container div {
+    border: 3px solid #000000;
     position: absolute;
 }
 
 #head {
-    background-color: yellow;
+    background-color: #ffff00;
     border-radius: 600px;
     width: 600px;
     height: 600px;
 }
 
 #left-eye {
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 100px;
     width: 100px;
     height: 100px;
@@ -23,7 +29,7 @@ div {
 }
 
 #right-eye {
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 100px;
     width: 100px;
     height: 100px;
@@ -31,7 +37,7 @@ div {
 }
 
 #left-pupil {
-    background-color: black;
+    background-color: #000000;
     border-radius: 30px;
     width: 30px;
     height: 30px;   
@@ -39,7 +45,7 @@ div {
 }
 
 #right-pupil {
-    background-color: black;
+    background-color: #000000;
     border-radius: 30px;
     width: 30px;
     height: 30px;   
@@ -47,7 +53,7 @@ div {
 }
 
 #nose {
-    background-color: red;
+    background-color: #ff0000;
     border-radius: 80px;
     width: 80px;
     height: 80px;
@@ -55,7 +61,7 @@ div {
 }
 
 #mouth {
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 100px;
     width: 250px;
     height: 100px;   
@@ -63,7 +69,7 @@ div {
 }
 
 #left-tooth {
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 0 0 12px 12px;
     width: 50px;
     height: 50px;  
@@ -71,7 +77,7 @@ div {
 }
 
 #right-tooth {
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 0 0 12px 12px;
     width: 50px;
     height: 50px;  
