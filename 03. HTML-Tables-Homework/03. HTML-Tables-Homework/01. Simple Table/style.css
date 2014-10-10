@@ -3,15 +3,18 @@
     font-size: 16px;
 }
 
-thead tr{
-    height: 60px;
+#container {
+    height: 231px;
+    width: 395px;
+    margin: 20px auto;
 }
 
-thead th {
-    text-align: left;
+th {
     font-size: 2em;
-    padding: 0;
+    text-align: left;   
+    height: 60px;
     vertical-align: top;
+    padding: 0; 
 }
 
 tr td:first-child {
@@ -28,5 +31,5 @@ tr td:last-child {
 }
 
 #image:before {
-    content: url(softuni.png);
+    content: url(images/softuni.png);
 }

@@ -2,28 +2,29 @@
 <html>
 <head>
     <title>Nested Tables</title>
-    <link rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table id="main-table">
-        <tbody>
-            <tr>
-                <td><a href="https://softuni.bg" target="_blank"><span id="image"></span></a></td>
-                <td>
-                    <table id="nested-table">
-                        <tbody>
-                            <tr>
-                                <td>Software</td>
-
-                            </tr>
-                            <tr>
-                                <td>University</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <div id="container">
+        <table>
+            <tbody>
+                <tr>
+                    <td><a href="https://softuni.bg" target="_blank"><img src="images/softuni.png" alt="SoftUni logo"/></a></td>
+                    <td>
+                        <table id="inner-table">
+                            <tbody>
+                                <tr>
+                                    <td>Software</td>
+                                </tr>
+                                <tr>
+                                    <td>University</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>

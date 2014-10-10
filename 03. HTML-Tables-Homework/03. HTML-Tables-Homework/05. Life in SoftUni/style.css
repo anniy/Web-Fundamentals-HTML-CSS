@@ -8,20 +8,16 @@
     margin: 0 auto;
 }
 
-table {
-    border: 1px solid black;
-}
-
-tbody {
-    font-size: 20px;
-}
-
-td, th {
-    border: 1px solid black;
+table, td, th {
+    border: 1px solid #000000;
 }
 
 thead>tr:nth-child(1){
     height: 100px;
+}
+
+tbody {
+    font-size: 0.5em;
 }
 
 tbody>tr>td{
@@ -35,7 +31,7 @@ tbody>tr>td{
 }
 
 #nested-table td {
-    font-size: 13px;
+    font-size: 0.8rem;
     font-weight: bold;
     height: 60px;
 }
