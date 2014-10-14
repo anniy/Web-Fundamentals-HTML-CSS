@@ -7,41 +7,41 @@
 <body>
     <div id="container">
         <form>
-            <fieldset id="details">
+            <fieldset>
                 <legend>Step 1: Your details</legend>
-                <div class="normal-height">
+                <div>
                     <label for="name">Name</label>
                     <input name="name" title="Can contain only - and letters" placeholder="First and last name" pattern="[A-z- ]+" required />
                 </div>
-                <div class="normal-height">
+                <div>
                     <label for="email">Email</label>
                     <input type="email" name="email" placeholder="example@domain.com" required />
                 </div>
-                <div class="normal-height">
+                <div>
                     <label for="phone">Phone</label>
                     <input type="tel" name="phone" title="Can contain only + and digits" placeholder="e.g. +447500000000" pattern="[0-9+ ]+" required />
                 </div>
             </fieldset>
-            <fieldset id="delivery">
+            <fieldset>
                 <legend>Step 1: Delivery address</legend>
                 <div id="address">
                     <label for="address">Address</label>
                     <textarea name="address"></textarea>
                 </div>
-                <div class="normal-height">
+                <div>
                     <label for="post-code">Post code</label>
                     <input name="post-code" title="Can contain only digits"  pattern="[0-9]+" />
                 </div>
-                <div class="normal-height">
+                <div>
                     <label for="country">Country</label>
                     <input name="country" title="Can contain only letters" pattern="[A-z]+" />
                 </div>
             </fieldset>
-            <fieldset id="card">
+            <fieldset>
                 <legend>Step 1: Card details</legend>
-                <div id="card-type">
+                <div id="card">
                     <label>Card type</label>
-                    <div id="cards">
+                    <div id="card-type">
                         <input type="radio" name="card-type" id="visa" required>
                         <label for="visa">VISA</label>
                         <input type="radio" name="card-type" id="amex">
@@ -50,15 +50,15 @@
                         <label for="mastercard">Mastercard</label>
                     </div>
                 </div>
-                <div class="normal-height">
+                <div>
                     <label for="car-number">Card number</label>
                     <input name="card-number" title="Can contain 10 to 19 digits" pattern="[0-9]{10,19}" required />
                 </div>
-                <div class="normal-height">
+                <div>
                     <label for="security-code">Security code</label>
                     <input title="Can contain 3 to 5 digits" name="security-code" pattern="[0-9]{3,5}" required />
                 </div>
-                <div class="normal-height">
+                <div>
                     <label for="name-on-card">Name on card</label>
                     <input type="text" name="name-on-card" title="Can contain only - and letters" placeholder="exact name as on the card" pattern="[A-z- ]+" required />
                 </div>

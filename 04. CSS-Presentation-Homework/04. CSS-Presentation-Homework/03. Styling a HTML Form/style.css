@@ -105,7 +105,7 @@ textarea:focus {
 
 /*--- Card type field ---*/
 
-#card-type {
+#card {
     margin-left: auto;
     margin-right: auto;
     height: 70px;
@@ -116,7 +116,7 @@ textarea:focus {
     background: rgba(255, 255, 255, 0.3);
 }
 
-#card-type>label {
+#card>label {
     display: inline-block;
     height: 25%;
     width: 20%;
@@ -125,7 +125,7 @@ textarea:focus {
     
 }
 
-#cards {
+#card-type {
 	margin-top: 5px;
 	height: 32px;
 	border: none;
@@ -133,7 +133,7 @@ textarea:focus {
     margin-left: 0;
 }
 
-#cards input {
+#card-type input {
 	margin-left: 20px;
 	margin-right: 0;
     width: 13px;
@@ -142,7 +142,7 @@ textarea:focus {
 	cursor: pointer;
 }
 
-#cards label {
+#card-type label {
 	width: 40px !important;
 	padding-left: 38px !important;
 	vertical-align: top;
@@ -152,17 +152,17 @@ textarea:focus {
 	cursor: pointer;
 }
 
-#cards label:nth-child(2) {
+#card-type label:nth-child(2) {
 	background-image: url(images/visa.png);
 	background-repeat: no-repeat;
 }
 
-#cards label:nth-child(4) {
+#card-type label:nth-child(4) {
 	background-image: url(images/amex.png);
 	background-repeat: no-repeat;
 }
 
-#cards label:nth-child(6) {
+#card-type label:nth-child(6) {
 	background-image: url(images/mastercard.png);
 	background-repeat: no-repeat;
 }
@@ -172,11 +172,11 @@ textarea:focus {
 #submit {
 	background: #04152F;
 	border-color: #04152F;
+    border-radius: 30px;
 	color: #ffffff;
 	font-weight: bold;
 	height: 30px;
-	width: 100px;
-	border-radius: 30px;
+	width: 100px;	
 	margin: 10px 200px;
 	padding: 0;
     outline: none;
