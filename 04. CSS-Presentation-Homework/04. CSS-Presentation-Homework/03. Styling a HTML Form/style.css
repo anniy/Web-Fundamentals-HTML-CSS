@@ -19,10 +19,14 @@ fieldset {
     border: none;
 }
 
+fieldset:first-child legend {
+    padding-top: 15px;
+}
+
 legend {
     color: #ffffff;
-    padding-left: 5%;
     width: 400px;
+    padding: 6px 0 10px 5%;
 }
 
 
