@@ -1,0 +1,128 @@
+﻿body {
+}
+
+#container {
+    font-family: Tahoma;
+    font-size: 14px;
+    background: #EEEEEE;
+    height: 390px;
+    width: 700px;
+    
+}
+
+form {
+    display: inline-block;
+    height: 279px;
+    width: 48%; 
+}
+
+fieldset {
+    border: none; 
+}
+
+legend {
+    font-weight: bold;
+    text-transform: uppercase;   
+    padding: 7px 0;
+}
+
+h1 {
+    color: #092F54;
+}
+
+h4 {
+    color: #606060;
+}
+
+#login {
+    background: #234465;
+    color: #ffffff;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+#register {
+    color: #606060;
+    margin-left: 4px;
+}
+
+#register span {
+    color: #092F54;
+}
+
+a {
+    color: #ffffff;  
+}
+
+.text {
+    height: 35px;
+    width: 95%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+#register input:last-of-type {
+    color: #234465;
+    border: 2px solid #234465;
+    background: none;
+    float: right;
+    text-align: center;
+    height: 40px;
+    width: 40%;
+}
+
+#login div:first-of-type {
+    height: 40px;
+}
+
+#login div input:last-of-type {
+    color: #ffffff;
+    border: 2px solid #E1900E;
+    background: none;
+    float: right;
+    text-align: center;
+    height: 40px;
+    width: 40%;
+    margin-right: 2px;
+}
+
+#login div input:first-of-type {
+    height: 20px;
+    width: 20px;
+    margin-left: 0;
+    font-size: 10px;
+}
+
+#login label {
+     vertical-align: top;
+}
+
+#login div:last-of-type {
+    display: inline-block;
+    float: right;
+    padding-top: 10px;
+    text-decoration: underline;
+    margin-right: 2px;
+}
+
+input {
+    outline: none;
+}
+
+#login div label:hover {
+    cursor: pointer;
+}
+
+#reg:hover {
+    cursor: pointer;
+    color: #ffffff !important;
+    background: #234465 !important;
+
+}
+
+#log:hover {
+    cursor: pointer;
+    background: #E1900E !important;
+}
+
+
