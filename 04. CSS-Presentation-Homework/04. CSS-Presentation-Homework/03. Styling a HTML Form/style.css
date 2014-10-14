@@ -25,6 +25,7 @@ fieldset:first-child legend {
 
 legend {
     color: #ffffff;
+    font-weight: bold;
     width: 400px;
     padding: 6px 0 10px 5%;
 }
