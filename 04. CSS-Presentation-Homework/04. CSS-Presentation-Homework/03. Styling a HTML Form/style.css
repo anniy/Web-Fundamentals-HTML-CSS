@@ -4,19 +4,20 @@
 }
 
 #container {
-    height: 730px;
-    width: 500px;
     background-image: url(images/formBackground.jpg);
     border-radius: 7px;
+    height: 730px;
+    width: 500px;   
 }
+
 
 /*--- Title ---*/
 
 fieldset {
     color: #000000;
     font-size: 17px;
-    padding: 0;
     border: none;
+    padding: 0;   
 }
 
 fieldset:first-child legend {
@@ -27,11 +28,20 @@ legend {
     color: #ffffff;
     font-weight: bold;
     width: 400px;
-    padding: 6px 0 10px 5%;
+    padding: 6px 0 7px 5%;
 }
 
 
-/*--- Styling all labels, inputs and .normal-height ---*/
+/*--- Styling all divs, labels and inputs ---*/
+
+div {
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid #ffffff;
+    border-radius: 5px; 
+    height: 40px;
+    width: 90%;
+    margin: 3px auto; 
+}
 
 label {
     display: inline-block;
@@ -39,16 +49,15 @@ label {
     width: 27%;
     margin-top: 8px;
     padding-left: 10px;
-	//font-weight: bold;
 }
 
 input {
     border: 1px solid #ffffff;
     border-radius: 4px;
-    margin-top: 8px;
-    padding-left: 10px;
     height: 50%;
     width: 50%;
+    margin-top: 8px;
+    padding-left: 10px;   
 }
 
 div input:focus {
@@ -56,28 +65,16 @@ div input:focus {
 	border-color: #FFE2CC;
 }
 
-div {
-    margin-left: auto;
-    margin-right: auto;
-    height: 40px;
-    width: 90%;
-    margin-bottom: 3px;
-    border: 1px solid #ffffff;
-    border-radius: 5px;   
-    background: rgba(255, 255, 255, 0.3);
+#card-type input:focus {
+    background: none;
+	border-color: none;
 }
+
 
 /*--- Address field ---*/
 
 #address {
-    margin-left: auto;
-    margin-right: auto;
     height: 100px;
-    width: 90%;
-    margin-bottom: 3px;
-    border: 1px solid #ffffff;
-    border-radius: 5px;   
-    background: rgba(255, 255, 255, 0.3);
 }
 
 #address label {
@@ -104,17 +101,11 @@ textarea:focus {
 	border-color: #FFE2CC;
 }
 
+
 /*--- Card type field ---*/
 
 #card {
-    margin-left: auto;
-    margin-right: auto;
     height: 70px;
-    width: 90%;
-    margin-bottom: 3px;
-    border: 1px solid #ffffff;
-    border-radius: 5px;   
-    background: rgba(255, 255, 255, 0.3);
 }
 
 #card>label {
@@ -134,22 +125,20 @@ textarea:focus {
     margin-left: 0;
 }
 
-#card-type input {
-	margin-left: 20px;
-	margin-right: 0;
+#card-type input { 
+    height: 32px;
     width: 13px;
-	height: 32px;
-	margin-top: 0;
+    margin: 0 0 0 20px;
 	cursor: pointer;
 }
 
 #card-type label {
-	width: 40px !important;
-	padding-left: 38px !important;
-	vertical-align: top;
-	height: 32px;
+    height: 32px;
+	width: 40px;
+    vertical-align: top;
 	margin-top: 4px;
 	padding-top: 4px;
+    padding-left: 38px;
 	cursor: pointer;
 }
 
@@ -168,6 +157,7 @@ textarea:focus {
 	background-repeat: no-repeat;
 }
 
+
 /*--- Submit button ---*/
 
 #submit {
@@ -178,12 +168,12 @@ textarea:focus {
 	font-weight: bold;
 	height: 30px;
 	width: 100px;	
-	margin: 10px 200px;
+	margin: 15px 200px;
 	padding: 0;
     outline: none;
 }
 
 #submit:hover {
 	cursor: pointer;
-	color: red;
+	color: #ff0000;
 }
