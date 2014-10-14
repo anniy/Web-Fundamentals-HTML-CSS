@@ -37,9 +37,32 @@
             </div>  
         </div>
         <div id="card">
-
+			<h1>Step 1: Card details</h1>
+			<div id="card-type">
+                <label>Card type</label>
+                <form>
+					<input type="radio" name="card-type" id="visa">
+					<label for="visa">VISA</label>
+					<input type="radio" name="card-type" id="amex">
+					<label for="amex">AmEx</label>
+					<input type="radio" name="card-type" id="mastercard">
+					<label for="mastercard">Mastercard</label>
+				</form>
+            </div>
+            <div class="normal-height">
+                <label>Card number</label>
+                <input />
+            </div>
+            <div class="normal-height">
+                <label>Security code</label>
+                <input />
+            </div>
+            <div class="normal-height">
+                <label>Name on card</label>
+                <input placeholder="exact name as on the card" />
+            </div>    
         </div>
-        
+        <input type="submit" id="submit" value="BUY IT!"/>
     </div>
 </body>
 </html>
