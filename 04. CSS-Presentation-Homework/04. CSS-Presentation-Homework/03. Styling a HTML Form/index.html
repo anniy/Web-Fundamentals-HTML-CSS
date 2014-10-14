@@ -11,7 +11,7 @@
                 <legend>Step 1: Your details</legend>
                 <div class="normal-height">
                     <label for="name">Name</label>
-                    <input name="name" placeholder="First and last name" required />
+                    <input name="name" title="Can contain only - and letters" placeholder="First and last name" pattern="[A-z- ]+" required />
                 </div>
                 <div class="normal-height">
                     <label for="email">Email</label>
@@ -19,7 +19,7 @@
                 </div>
                 <div class="normal-height">
                     <label for="phone">Phone</label>
-                    <input type="tel" name="phone" placeholder="e.g. +447500000000" required />
+                    <input type="tel" name="phone" title="Can contain only + and digits" placeholder="e.g. +447500000000" pattern="[0-9+ ]+" required />
                 </div>
             </fieldset>
             <fieldset id="delivery">
@@ -30,11 +30,11 @@
                 </div>
                 <div class="normal-height">
                     <label for="post-code">Post code</label>
-                    <input name="post-code" />
+                    <input name="post-code" title="Can contain only digits"  pattern="[0-9]+" />
                 </div>
                 <div class="normal-height">
                     <label for="country">Country</label>
-                    <input name="country" />
+                    <input name="country" title="Can contain only letters" pattern="[A-z]+" />
                 </div>
             </fieldset>
             <fieldset id="card">
@@ -60,7 +60,7 @@
                 </div>
                 <div class="normal-height">
                     <label for="name-on-card">Name on card</label>
-                    <input type="text" name="name-on-card" placeholder="exact name as on the card" required />
+                    <input type="text" name="name-on-card" title="Can contain only - and letters" placeholder="exact name as on the card" pattern="[A-z- ]+" required />
                 </div>
             </fieldset>
             <input type="submit" id="submit" value="BUY IT!" />
