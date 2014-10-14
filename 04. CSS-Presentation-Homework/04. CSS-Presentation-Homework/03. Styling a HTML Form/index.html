@@ -6,63 +6,63 @@
 </head>
 <body>
     <div id="container">
-        <div id="details">
-            <h1>Step 1: Your details</h1>
+        <fieldset id="details">
+            <legend>Step 1: Your details</legend>
             <div class="normal-height">
-                <label>Name</label>
-                <input placeholder="First and last name"/>
+                <label for="name">Name</label>
+                <input name="name" placeholder="First and last name" required />
             </div>
             <div class="normal-height">
-                <label>Email</label>
-                <input placeholder="example@domain.com" />
+                <label for="email">Email</label>
+                <input name="email" placeholder="example@domain.com" required />
             </div>
             <div class="normal-height">
-                <label>Phone</label>
-                <input placeholder="e.g. +447500000000" />
+                <label for="phone">Phone</label>
+                <input name="phone" placeholder="e.g. +447500000000" required />
             </div>          
-        </div>
-        <div id="delivery">
-            <h1>Step 1: Delivery address</h1>
+        </fieldset>
+        <fieldset id="delivery">
+            <legend>Step 1: Delivery address</legend>
             <div id="address">
-                <label>Address</label>
-                <textarea></textarea>
+                <label for="address">Address</label>
+                <textarea name="address"></textarea>
             </div>
             <div class="normal-height">
-                <label>Post code</label>
-                <input />
+                <label for="post-code">Post code</label>
+                <input name="post-code"/>
             </div>
             <div class="normal-height">
-                <label>Country</label>
-                <input />
-            </div>  
-        </div>
-        <div id="card">
-			<h1>Step 1: Card details</h1>
-			<div id="card-type">
+                <label for="country">Country</label>
+                <input name="country"/>
+            </div>
+        </fieldset>
+        <fieldset id="card">
+            <legend>Step 1: Card details</legend>
+            <div id="card-type">
                 <label>Card type</label>
                 <form>
-					<input type="radio" name="card-type" id="visa">
-					<label for="visa">VISA</label>
-					<input type="radio" name="card-type" id="amex">
-					<label for="amex">AmEx</label>
-					<input type="radio" name="card-type" id="mastercard">
-					<label for="mastercard">Mastercard</label>
-				</form>
+                    <input type="radio" name="card-type" id="visa">
+                    <label for="visa">VISA</label>
+                    <input type="radio" name="card-type" id="amex">
+                    <label for="amex">AmEx</label>
+                    <input type="radio" name="card-type" id="mastercard">
+                    <label for="mastercard">Mastercard</label>
+                </form>
             </div>
             <div class="normal-height">
-                <label>Card number</label>
-                <input />
+                <label for="car-number">Card number</label>
+                <input name="card-number" required />
             </div>
             <div class="normal-height">
-                <label>Security code</label>
-                <input />
+                <label for="security-code">Security code</label>
+                <input name="security-code" required />
             </div>
             <div class="normal-height">
-                <label>Name on card</label>
-                <input placeholder="exact name as on the card" />
-            </div>    
-        </div>
-        <input type="submit" id="submit" value="BUY IT!"/>
+                <label for="name-on-card">Name on card</label>
+                <input type="text" name="name-on-card" placeholder="exact name as on the card" required />
+            </div>
+        </fieldset>
+        <input type="submit" id="submit" value="BUY IT!" />
     </div>
 </body>
 </html>
