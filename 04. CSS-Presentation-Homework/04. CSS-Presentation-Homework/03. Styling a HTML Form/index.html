@@ -6,63 +6,65 @@
 </head>
 <body>
     <div id="container">
-        <fieldset id="details">
-            <legend>Step 1: Your details</legend>
-            <div class="normal-height">
-                <label for="name">Name</label>
-                <input name="name" placeholder="First and last name" required />
-            </div>
-            <div class="normal-height">
-                <label for="email">Email</label>
-                <input type="email" name="email" placeholder="example@domain.com" required />
-            </div>
-            <div class="normal-height">
-                <label for="phone">Phone</label>
-                <input type="tel" name="phone" placeholder="e.g. +447500000000" required />
-            </div>          
-        </fieldset>
-        <fieldset id="delivery">
-            <legend>Step 1: Delivery address</legend>
-            <div id="address">
-                <label for="address">Address</label>
-                <textarea name="address"></textarea>
-            </div>
-            <div class="normal-height">
-                <label for="post-code">Post code</label>
-                <input name="post-code"/>
-            </div>
-            <div class="normal-height">
-                <label for="country">Country</label>
-                <input name="country"/>
-            </div>
-        </fieldset>
-        <fieldset id="card">
-            <legend>Step 1: Card details</legend>
-            <div id="card-type">
-                <label>Card type</label>
-                <form>
-                    <input type="radio" name="card-type" id="visa">
-                    <label for="visa">VISA</label>
-                    <input type="radio" name="card-type" id="amex">
-                    <label for="amex">AmEx</label>
-                    <input type="radio" name="card-type" id="mastercard">
-                    <label for="mastercard">Mastercard</label>
-                </form>
-            </div>
-            <div class="normal-height">
-                <label for="car-number">Card number</label>
-                <input name="card-number" required />
-            </div>
-            <div class="normal-height">
-                <label for="security-code">Security code</label>
-                <input name="security-code" required />
-            </div>
-            <div class="normal-height">
-                <label for="name-on-card">Name on card</label>
-                <input type="text" name="name-on-card" placeholder="exact name as on the card" required />
-            </div>
-        </fieldset>
-        <input type="submit" id="submit" value="BUY IT!" />
+        <form>
+            <fieldset id="details">
+                <legend>Step 1: Your details</legend>
+                <div class="normal-height">
+                    <label for="name">Name</label>
+                    <input name="name" placeholder="First and last name" required />
+                </div>
+                <div class="normal-height">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="example@domain.com" required />
+                </div>
+                <div class="normal-height">
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" placeholder="e.g. +447500000000" required />
+                </div>
+            </fieldset>
+            <fieldset id="delivery">
+                <legend>Step 1: Delivery address</legend>
+                <div id="address">
+                    <label for="address">Address</label>
+                    <textarea name="address"></textarea>
+                </div>
+                <div class="normal-height">
+                    <label for="post-code">Post code</label>
+                    <input name="post-code" />
+                </div>
+                <div class="normal-height">
+                    <label for="country">Country</label>
+                    <input name="country" />
+                </div>
+            </fieldset>
+            <fieldset id="card">
+                <legend>Step 1: Card details</legend>
+                <div id="card-type">
+                    <label>Card type</label>
+                    <div id="cards">
+                        <input type="radio" name="card-type" id="visa" required>
+                        <label for="visa">VISA</label>
+                        <input type="radio" name="card-type" id="amex">
+                        <label for="amex">AmEx</label>
+                        <input type="radio" name="card-type" id="mastercard">
+                        <label for="mastercard">Mastercard</label>
+                    </div>
+                </div>
+                <div class="normal-height">
+                    <label for="car-number">Card number</label>
+                    <input name="card-number" title="Can contain 10 to 19 digits" pattern="[0-9]{10,19}" required />
+                </div>
+                <div class="normal-height">
+                    <label for="security-code">Security code</label>
+                    <input title="Can contain 3 to 5 digits" name="security-code" pattern="[0-9]{3,5}" required />
+                </div>
+                <div class="normal-height">
+                    <label for="name-on-card">Name on card</label>
+                    <input type="text" name="name-on-card" placeholder="exact name as on the card" required />
+                </div>
+            </fieldset>
+            <input type="submit" id="submit" value="BUY IT!" />
+        </form>
     </div>
 </body>
 </html>

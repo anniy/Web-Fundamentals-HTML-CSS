@@ -125,13 +125,13 @@ textarea:focus {
     
 }
 
-form {
+#cards {
 	margin-top: 5px;
 	height: 32px;
 	
 }
 
-form input {
+#cards input {
 	margin-left: 30px;
 	margin-right: 0;
     width: 13px;
@@ -140,7 +140,7 @@ form input {
 	cursor: pointer;
 }
 
-form label {
+#cards label {
 	width: 40px !important;
 	padding-left: 38px !important;
 	vertical-align: top;
@@ -150,17 +150,17 @@ form label {
 	cursor: pointer;
 }
 
-form label:nth-child(2) {
+#cards label:nth-child(2) {
 	background-image: url(images/visa.png);
 	background-repeat: no-repeat;
 }
 
-form label:nth-child(4) {
+#cards label:nth-child(4) {
 	background-image: url(images/amex.png);
 	background-repeat: no-repeat;
 }
 
-form label:nth-child(6) {
+#cards label:nth-child(6) {
 	background-image: url(images/mastercard.png);
 	background-repeat: no-repeat;
 }
