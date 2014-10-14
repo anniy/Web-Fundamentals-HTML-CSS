@@ -3,31 +3,18 @@
 <head>
     <link href="style.css" rel="stylesheet" />
     <title>Simple Form</title>
-
-    <script>
-        function checkPasswords() {
-            var pass1 = document.getElementById("pass1").value;
-            var pass2 = document.getElementById("pass2").value;
-            if (pass1 != pass2) {
-                document.getElementById("pass1").style.borderColor = "#E34234";
-                document.getElementById("pass2").style.borderColor = "#E34234";
-                alert("Passwords do not match!!!");
-            }
-        }
-    </script>
-
 </head>
 <body>
     <div id="container">
         <h1>Enter the system</h1>
-        <h4>It is necessary to login in Your account in order to sign in for a course.</h4>
+        <p>It is necessary to login in Your account in order to sign in for a course.</p>
         <form method="post" id="register" action="#">
             <fieldset>
                 <legend>are you new? <span>register</span></legend>
                 <input class="text" type="text" title="Can contain only - and letters" placeholder="User name" pattern="[A-z- ]+" required />
                 <input class="text" type="email" name="email" placeholder="Email" pattern="\b[A-z0-9._%+-]+@[A-z0-9.-]+\.[A-z]{2,4}\b" required />
-                <input class="text" id="pass1" type="password" placeholder="Password" required />
-                <input class="text" id="pass2" type="password" placeholder="Confirm Password" required />
+                <input class="text" type="password" placeholder="Password" required />
+                <input class="text" type="password" placeholder="Confirm Password" required />
                 <input id="reg" type="submit" value="Register" onclick="checkPasswords()" />
             </fieldset>
         </form>

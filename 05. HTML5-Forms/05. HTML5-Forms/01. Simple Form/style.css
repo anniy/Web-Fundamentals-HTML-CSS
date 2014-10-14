@@ -5,9 +5,9 @@
     font-family: Tahoma;
     font-size: 14px;
     background: #EEEEEE;
-    height: 390px;
+    height: 400px;
     width: 700px;
-    
+    margin: 0 auto; 
 }
 
 form {
@@ -28,10 +28,12 @@ legend {
 
 h1 {
     color: #092F54;
+    padding: 5px 0 0 15px;
 }
 
-h4 {
+p {
     color: #606060;
+    padding: 0 0 10px 15px;
 }
 
 #login {
@@ -124,5 +126,3 @@ input {
     cursor: pointer;
     background: #E1900E !important;
 }
-
-
