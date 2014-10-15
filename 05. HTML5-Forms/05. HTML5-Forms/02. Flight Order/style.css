@@ -1,0 +1,99 @@
+﻿#container {
+    background: #FFC0CB;
+    height: 365px;
+    width: 495px;
+    margin: 0 auto;
+    font-family: Tahoma;
+    font-size: 15px;
+}
+
+fieldset {
+    padding: 0;
+    border: none;
+}
+
+legend {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;   
+}
+
+table {
+    width: 490px;
+    margin: 5px 0 5px 5px;
+}
+
+td {
+    //border: 1px solid black;
+    padding-left: 0;
+    padding-bottom: 5px;
+}
+
+/*tr:nth-child(2), tr:nth-child(5), tr:nth-child(7), tr:nth-child(9) {
+    //text-align: center;
+}*/
+
+tr:nth-child(1), tr:nth-child(3), tr:nth-child(4), tr:nth-child(6), tr:nth-child(8) {
+    font-style: italic;
+}
+
+input {
+    height: 21px;
+    font-size: 15px;
+}
+
+
+input[type="checkbox"] {
+    height: 10px;
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+
+select {
+    height: 25px;
+    font-size: 15px;
+    width: 233px;
+    font-weight: bold;
+}
+
+td input[type="time"] {
+    width: 109px;
+}
+
+td input[type="date"] {
+    width: 228px;
+}
+
+input[type="number"] {
+    width: 71px;
+    height: 19px;
+    //padding-left: 5px;
+}
+
+/*td[colspan="0"]{
+    width: 300px;
+}*/
+
+/*#people input:nth-child(n+2) {
+    margin-left: 0px;
+}*/
+
+input[type=submit], input[type=reset] {
+    height: 35px;
+    width: 233px;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    cursor: pointer;
+    color: #ff0000;
+}
+
+label:hover {
+    cursor: pointer;
+}
