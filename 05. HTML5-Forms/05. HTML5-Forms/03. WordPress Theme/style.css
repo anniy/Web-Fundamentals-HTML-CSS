@@ -1,0 +1,75 @@
+﻿#container {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    height: 210px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+div {
+    margin-top: 20px;
+}
+
+input {
+    outline: none;
+}
+
+/*--- Logo ---*/
+
+#logo  {
+    background: url('images/wordpress_logo.svg');
+    background-repeat: no-repeat;
+    background-size: 400px 90px;
+    height: 90px;
+    width: 400px;
+    border: none;
+}
+
+
+/*--- File upload ---*/
+
+input[type=file]{
+    font-size: 15px;
+    font-weight: bold;   
+    cursor: pointer;
+    //-webkit-appearance: none;    
+}
+
+
+/*--- Search ---*/
+
+#search-form div {
+    display: inline-block;
+    vertical-align: top;
+    height: 21px;    
+    margin-top: 12px;
+}
+
+form {
+    display: inline-block;
+    height: 30px;
+    margin-left: 2px;
+}
+
+input[type=text] {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;    
+    height: 30px;
+    width: 190px;
+    vertical-align: top;
+    padding: 0 2px;
+    border: 1px solid gray; 
+}
+
+input[type=submit] {
+    background: url('images/wordpress_button.svg');
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+    border: none;
+}
+    input[type=submit]:hover {
+        cursor: pointer;
+    }
