@@ -23,6 +23,8 @@ input {
     height: 90px;
     width: 396px;
     border: none;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 
@@ -32,7 +34,7 @@ input[type=file]{
     font-family: 'Times New Roman', Times, serif;  
     font-size: 18px;
     font-weight: bold;   
-    cursor: pointer;    
+    cursor: pointer; 
 }
 
 
@@ -56,7 +58,7 @@ input[type=text] {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;    
     height: 30px;
-    width: 190px;
+    width: 210px;
     vertical-align: top;
     padding: 0 2px;
     border: 1px solid gray; 
