@@ -33,7 +33,7 @@ img {
     width: 261px;
     height: 91px;
     display: inline-block;
-    position: fixed;
+    position: absolute;
     padding: 9px 0 0 970px;
 }
 
