@@ -1,18 +1,24 @@
-﻿#container {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-    height: 210px;
-    width: 430px;
+﻿body {
+    width: 700px;
     margin: 0 auto;
 }
 
-div {
-    margin-top: 20px;
+#container {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    height: 210px;
+}
+
+#container>div {
+    text-align: left;
+    padding-left: 20%;
+    margin-top: 20px;  
 }
 
 input {
     outline: none;
 }
+
 
 /*--- Logo ---*/
 
@@ -23,8 +29,6 @@ input {
     height: 90px;
     width: 396px;
     border: none;
-    margin-left: 12px;
-    margin-right: 12px;
 }
 
 
@@ -33,7 +37,8 @@ input {
 input[type=file]{
     font-family: 'Times New Roman', Times, serif;  
     font-size: 18px;
-    font-weight: bold;   
+    font-weight: bold;  
+    max-width: 300px; 
     cursor: pointer; 
 }
 
@@ -57,11 +62,12 @@ input[type=text] {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;    
+    border: 1px solid gray; 
     height: 30px;
     width: 210px;
     vertical-align: top;
     padding: 0 2px;
-    border: 1px solid gray; 
+    
 }
 
 input[type=submit] {
