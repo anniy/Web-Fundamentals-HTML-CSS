@@ -73,6 +73,7 @@ div, button, input, input[type=range] {
 #products {
     display: inline-block;
     width: 750px;
+    float: left;
 }
 
 h1 {
